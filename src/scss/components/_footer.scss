@@ -1,0 +1,17 @@
+footer {
+    background-color: rgba($color-primary, 0.5);
+    color: black;
+    padding: 5px 0 5px 0;
+
+    span {
+        font-size: 10pt;
+        font-style: italic;
+        opacity: 0.7;
+    }
+
+    @include xs-view {
+        #hidden-footer-span {
+            display: none;
+        }
+    }
+}
