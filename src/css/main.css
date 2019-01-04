@@ -1,11 +1,31 @@
 nav {
-  background-color: #CFA7F7;
-  opacity: 0.7;
-  text-align: center;
+  background-color: rgba(207, 167, 247, 0.2);
+  color: black;
 }
-nav .navbar-nav {
-  padding: 10px;
-  text-align: center;
+nav #logo-div {
+  padding-top: 20px;
+  padding-bottom: 8px;
+  font-size: 50px;
+  text-decoration: underline;
+}
+nav #menu-div {
+  padding-bottom: 20px;
+}
+nav #menu-div a {
+  color: black;
+  font-size: 20px;
+}
+@media (min-width: 992px) {
+  nav #menu-div a:hover {
+    color: #5D65A1;
+    font-size: 26px;
+    padding: 5px;
+  }
+}
+@media (max-width: 991px) {
+  nav #menu-div a {
+    font-size: 16px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
