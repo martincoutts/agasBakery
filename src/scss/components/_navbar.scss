@@ -1,6 +1,7 @@
 nav {
   background-color: rgba($color-primary, 0.2);
-  color: black;
+  font-family: $nav-font;
+  color: rgba(0, 0, 0, 0.781);
 
   #logo-div {
     padding-top: 10px;

@@ -1,0 +1,27 @@
+#about-div{
+    background-color: rgba($light-accent, 0.1);
+    padding: 40px 0 40px 0;
+    font-family: $main-font;
+
+    @include mobile-view{
+        background-image: url('/src/img/red-velvet.jpg');
+        margin-top: -10px;
+        img{
+            display: none;
+        }
+    }
+}
+
+#about-us{
+    h2{
+        font-family: $nav-font;
+        font-weight: 500;
+        text-decoration: underline;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    h4{
+        font-style: italic;
+    }
+}
