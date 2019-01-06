@@ -1,0 +1,21 @@
+#header-div{
+    background-color: white;
+    background-image: url('/src/img/header-img.jpg');
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: 100%;
+    text-align: center;
+    h1, h3{
+        font-size: 40pt;
+        text-decoration: underline;
+        padding-bottom: 20px;
+        color: white;
+    }
+    
+    @include desktop-view{
+        padding-top: 190px;
+            h1, h3{
+                font-size: 70pt;
+            }
+    }
+}

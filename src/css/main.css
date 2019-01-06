@@ -44,4 +44,27 @@ footer span {
   }
 }
 
+#header-div {
+  background-color: white;
+  background-image: url("/src/img/header-img.jpg");
+  background-repeat: no-repeat;
+  height: 600px;
+  background-size: 100%;
+  text-align: center;
+}
+#header-div h1, #header-div h3 {
+  font-size: 40pt;
+  text-decoration: underline;
+  padding-bottom: 20px;
+  color: white;
+}
+@media (min-width: 992px) {
+  #header-div {
+    padding-top: 190px;
+  }
+  #header-div h1, #header-div h3 {
+    font-size: 70pt;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
