@@ -1,0 +1,25 @@
+#contact-header{
+    text-decoration: underline;
+    padding: 20px 0 20px 0;
+}
+.contact-div{
+    font-family:$main-font;
+    background-color: rgba($light-accent, 0.1);
+}
+.contact-info{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+@include desktop-view{
+    .contact-info{
+        padding: 10px 0 30px 140px;
+    }
+}
+
+@include mobile-view{
+    .contact-info{
+        padding: 0 0 30px 20px;
+        margin: 0 0 30px 60px;
+    }
+}

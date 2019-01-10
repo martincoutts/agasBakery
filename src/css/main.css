@@ -64,6 +64,31 @@ nav #menu-div a {
   }
 }
 
+#contact-header {
+  text-decoration: underline;
+  padding: 20px 0 20px 0;
+}
+
+.contact-div {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: rgba(193, 170, 207, 0.1);
+}
+
+.contact-info {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+@media (min-width: 992px) {
+  .contact-info {
+    padding: 10px 0 30px 140px;
+  }
+}
+@media (max-width: 991px) {
+  .contact-info {
+    padding: 0 20px 0 20px;
+  }
+}
 footer {
   background-color: rgba(207, 167, 247, 0.5);
   color: black;
