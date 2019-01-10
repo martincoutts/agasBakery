@@ -1,3 +1,7 @@
+p {
+  padding-bottom: 10px;
+}
+
 nav {
   background-color: rgba(207, 167, 247, 0.2);
   font-family: "Quicksand", sans-serif;
@@ -27,32 +31,6 @@ nav #menu-div a {
   nav #menu-div a {
     font-size: 16px;
   }
-}
-
-#about-div {
-  background-color: rgba(193, 170, 207, 0.1);
-  padding: 40px 0 40px 0;
-  font-family: "Source Sans Pro", sans-serif;
-}
-@media (max-width: 991px) {
-  #about-div {
-    background-image: url("/src/img/red-velvet.jpg");
-    margin-top: -10px;
-  }
-  #about-div img {
-    display: none;
-  }
-}
-
-#about-us h2 {
-  font-family: "Quicksand", sans-serif;
-  font-weight: 500;
-  text-decoration: underline;
-  text-align: center;
-  padding-bottom: 20px;
-}
-#about-us h4 {
-  font-style: italic;
 }
 
 #header-div {
@@ -100,6 +78,42 @@ footer span {
   footer #hidden-footer-span {
     display: none;
   }
+}
+
+#about-div {
+  background-color: rgba(193, 170, 207, 0.1);
+  padding: 40px 0 40px 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+@media (max-width: 991px) {
+  #about-div {
+    background-image: url("/src/img/red-velvet.jpg");
+    margin-top: -10px;
+  }
+  #about-div img {
+    display: none;
+  }
+}
+
+#about-us h2 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  text-decoration: underline;
+  text-align: center;
+  padding-bottom: 20px;
+}
+#about-us h4 {
+  font-style: italic;
+}
+
+#catering-div {
+  padding: 40px 0 40px 0;
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: rgba(109, 169, 214, 0.2);
+}
+#catering-div h2 {
+  text-decoration: underline;
+  padding-bottom: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */
