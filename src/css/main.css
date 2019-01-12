@@ -20,6 +20,9 @@ nav #menu-div a {
   color: black;
   font-size: 26px;
 }
+nav #menu-div .active-link {
+  color: #5D65A1;
+}
 @media (min-width: 992px) {
   nav #menu-div a {
     -webkit-transition: font-size 1s, padding 0.5s;
@@ -155,6 +158,12 @@ footer span {
   padding: 40px 0 40px 0;
   font-family: "Source Sans Pro", sans-serif;
   background-color: rgba(109, 169, 214, 0.2);
+}
+#catering-div a:hover {
+  color: #5D65A1;
+}
+#catering-div a:visited {
+  color: #6DA9D6;
 }
 #catering-div h2 {
   font-family: "Quicksand", sans-serif;

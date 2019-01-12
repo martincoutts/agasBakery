@@ -2,18 +2,26 @@
   "name": "agasbakery",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "main.js",
   "scripts": {
-    "gulp": "gulp",
-    "serve": "gulp serve"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d distJs",
+    "start": "babel-watch src/js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martincavaliers/agasBakery.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martincavaliers/agasBakery/issues"
+  },
+  "homepage": "https://github.com/martincavaliers/agasBakery#readme",
   "devDependencies": {
-    "gulp": "^4.0.0",
-    "gulp-install": "^1.1.0",
-    "gulp-jscs": "^4.1.0",
-    "gulp-jshint": "^2.1.0",
-    "jshint": "^2.9.7"
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-watch": "^2.0.8"
   }
 }

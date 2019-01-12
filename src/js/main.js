@@ -1,6 +1,11 @@
-'Use strict';
-
-// $(document).ready(function(){
-//     // Loads index.html into main container
-//     $('#main-container').load('/src/html/index.html');
-// });
+$(document).ready(function(){
+    
+    // Scroll to function
+    $('a[href*="#"]').on('click', function (e) {
+        e.preventDefault();
+    
+        $('html, body').animate({
+            scrollTop: $($(this).attr('href')).offset().top
+        }, 300, 'linear');
+    });
+});

@@ -17,6 +17,10 @@ nav {
       color: black;
       font-size: 26px;
     }
+
+    .active-link{
+      color: $dark-shade;
+    }
   }
 
   @include desktop-view {

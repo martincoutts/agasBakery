@@ -2,6 +2,7 @@
     padding: 40px 0 40px 0;
     font-family: $main-font;
     background-color: rgba($dark-accent, 0.2);
+    @include link;
     h2{
         font-family: $nav-font;
         text-decoration: underline;
