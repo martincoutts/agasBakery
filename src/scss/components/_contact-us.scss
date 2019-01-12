@@ -1,10 +1,12 @@
 #contact-header{
+    font-family: $nav-font;
     text-decoration: underline;
     padding: 20px 0 20px 0;
 }
 .contact-div{
     font-family:$main-font;
     background-color: rgba($light-accent, 0.1);
+    @include link;
 }
 .contact-info{
     padding-top: 30px;
@@ -13,13 +15,19 @@
 
 @include desktop-view{
     .contact-info{
-        padding: 10px 0 30px 140px;
+        padding: 10px 80px 30px 90px;
+        margin-bottom: 15px;
+        hr{
+            border: 0.4px solid;
+        }
     }
 }
 
 @include mobile-view{
     .contact-info{
-        padding: 0 0 30px 20px;
-        margin: 0 0 30px 60px;
+        margin-top: -50px;
+    }
+    #contact-header{
+        margin-bottom: 20px;
     }
 }

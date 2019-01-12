@@ -21,15 +21,20 @@ nav #menu-div a {
   font-size: 26px;
 }
 @media (min-width: 992px) {
+  nav #menu-div a {
+    -webkit-transition: font-size 1s, padding 0.5s;
+    /* Safari */
+    transition: font-size 1s, padding 0.5s;
+  }
   nav #menu-div a:hover {
     color: #5D65A1;
-    font-size: 32px;
+    font-size: 38px;
     padding: 5px;
   }
 }
 @media (max-width: 991px) {
   nav #menu-div a {
-    font-size: 16px;
+    font-size: 25px;
   }
 }
 
@@ -65,6 +70,7 @@ nav #menu-div a {
 }
 
 #contact-header {
+  font-family: "Quicksand", sans-serif;
   text-decoration: underline;
   padding: 20px 0 20px 0;
 }
@@ -72,6 +78,12 @@ nav #menu-div a {
 .contact-div {
   font-family: "Source Sans Pro", sans-serif;
   background-color: rgba(193, 170, 207, 0.1);
+}
+.contact-div a:hover {
+  color: #5D65A1;
+}
+.contact-div a:visited {
+  color: #6DA9D6;
 }
 
 .contact-info {
@@ -81,12 +93,20 @@ nav #menu-div a {
 
 @media (min-width: 992px) {
   .contact-info {
-    padding: 10px 0 30px 140px;
+    padding: 10px 80px 30px 90px;
+    margin-bottom: 15px;
+  }
+  .contact-info hr {
+    border: 0.4px solid;
   }
 }
 @media (max-width: 991px) {
   .contact-info {
-    padding: 0 20px 0 20px;
+    margin-top: -50px;
+  }
+
+  #contact-header {
+    margin-bottom: 20px;
   }
 }
 footer {
@@ -137,6 +157,7 @@ footer span {
   background-color: rgba(109, 169, 214, 0.2);
 }
 #catering-div h2 {
+  font-family: "Quicksand", sans-serif;
   text-decoration: underline;
   padding-bottom: 20px;
 }

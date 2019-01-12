@@ -1,0 +1,8 @@
+@mixin link{
+    a:hover{
+        color: $dark-shade;
+    }
+    a:visited{
+        color: $dark-accent;
+    }
+}
