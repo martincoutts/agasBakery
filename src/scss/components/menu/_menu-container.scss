@@ -1,0 +1,16 @@
+#main-container{
+    background-color: rgba($light-accent, 0.1);
+    padding: 30px;
+    h2{
+        text-decoration: underline;
+        font-family: $nav-font;
+    } 
+}
+
+#menu-container{
+    margin-top: 40px;
+    h4{
+        text-decoration: underline;
+        font-family: $nav-font;
+    }
+}

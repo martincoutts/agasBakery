@@ -171,4 +171,36 @@ footer span {
   padding-bottom: 20px;
 }
 
+.menu-img {
+  border: 0.5px solid black;
+}
+
+#main-container {
+  background-color: rgba(193, 170, 207, 0.1);
+  padding: 30px;
+}
+#main-container h2 {
+  text-decoration: underline;
+  font-family: "Quicksand", sans-serif;
+}
+
+#menu-container {
+  margin-top: 40px;
+}
+#menu-container h4 {
+  text-decoration: underline;
+  font-family: "Quicksand", sans-serif;
+}
+
+.menu-card {
+  background-color: white;
+  padding: 20px;
+}
+.menu-card h4 {
+  margin-bottom: 20px;
+}
+.menu-card p {
+  margin-top: 20px;
+}
+
 /*# sourceMappingURL=main.css.map */
