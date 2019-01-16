@@ -93,6 +93,9 @@ nav #menu-div .active-link {
   padding-top: 30px;
   padding-bottom: 50px;
 }
+.contact-info a {
+  color: #6DA9D6;
+}
 
 @media (min-width: 992px) {
   .contact-info {
@@ -170,16 +173,15 @@ footer span {
   text-decoration: underline;
   padding-bottom: 20px;
 }
-
-.menu-img {
-  border: 0.5px solid black;
+#catering-div a {
+  color: #6d74d6;
 }
 
-#main-container {
+#main-menu-container {
   background-color: rgba(193, 170, 207, 0.1);
   padding: 30px;
 }
-#main-container h2 {
+#main-menu-container h1 {
   text-decoration: underline;
   font-family: "Quicksand", sans-serif;
 }
@@ -195,12 +197,17 @@ footer span {
 .menu-card {
   background-color: white;
   padding: 20px;
+  margin-bottom: 20px;
 }
 .menu-card h4 {
   margin-bottom: 20px;
 }
 .menu-card p {
   margin-top: 20px;
+}
+.menu-card span {
+  font-style: initial;
+  color: rgba(0, 0, 0, 0.623);
 }
 
 /*# sourceMappingURL=main.css.map */

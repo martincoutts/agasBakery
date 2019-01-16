@@ -11,6 +11,9 @@
 .contact-info{
     padding-top: 30px;
     padding-bottom: 50px;
+    a{
+        color: $dark-accent;
+    }
 }
 
 @include desktop-view{

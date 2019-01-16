@@ -1,10 +1,15 @@
 .menu-card{
     background-color: white;
     padding: 20px;
+    margin-bottom: 20px;
     h4{
         margin-bottom: 20px;
     }
     p{
         margin-top: 20px;
+    }
+    span{
+        font-style: initial;
+        color: rgba(0, 0, 0, 0.623);
     }
 }
