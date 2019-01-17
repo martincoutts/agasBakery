@@ -131,6 +131,29 @@ footer span {
   }
 }
 
+.home-button-container {
+  background-color: rgba(109, 169, 214, 0.2);
+}
+
+.home-button-img {
+  height: 90px;
+  width: 90px;
+  margin: 20px 0 20px 0;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+@media (min-width: 992px) {
+  .home-button-img:hover {
+    -webkit-transition: height 1.5s, width 1.5s, margin 1s;
+    /* Safari */
+    transition: height 1.5s, width 1.5s, margin 1s;
+    background-color: rgba(207, 167, 247, 0.5);
+    height: 105px;
+    width: 105px;
+    margin: 30px 0 30px 0;
+  }
+}
 #about-div {
   background-color: rgba(193, 170, 207, 0.1);
   padding: 40px 0 40px 0;
@@ -195,7 +218,7 @@ footer span {
 }
 
 .menu-card {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.7);
   padding: 20px;
   margin-bottom: 20px;
 }

@@ -1,0 +1,23 @@
+.home-button-container{
+    background-color: rgba($dark-accent, 0.2);
+}
+
+.home-button-img{
+    height: 90px;
+    width: 90px;
+    margin: 20px 0 20px 0;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+@include desktop-view{
+    .home-button-img:hover{
+        -webkit-transition: height 1.5s, width 1.5s, margin 1s;
+          /* Safari */
+        transition: height 1.5s, width 1.5s, margin 1s;
+        background-color: rgba($color-primary, 0.5);
+        height: 105px;
+        width: 105px;
+        margin: 30px 0 30px 0;
+    }
+}
