@@ -154,6 +154,11 @@ footer span {
     margin: 30px 0 30px 0;
   }
 }
+@media (max-width: 991px) {
+  .home-button-img {
+    background-color: rgba(207, 167, 247, 0.3);
+  }
+}
 #about-div {
   background-color: rgba(193, 170, 207, 0.1);
   padding: 40px 0 40px 0;
