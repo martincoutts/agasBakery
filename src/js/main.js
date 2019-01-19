@@ -12,9 +12,32 @@ function scroller() {
   });
 }
 
+const desktopView = false;
+
+$(window).resize(function(){
+  if($(window).width() >= 992){
+    desktopView === true;
+  }else{
+    desktopView === false;
+  }
+});
+
 $(document).ready(function() {
-    // Runs on page load
-// $('.scroller').click(function(){
-//     scroller();
-// });
+  
+  // Arrow button fade in
+  if($(window).width() >= 992){
+    desktopView === true;
+  }
+  if(desktopView === true){
+  $(document).on('scroll', function() {
+    $(document).scroll(function() {
+      var y = $(this).scrollTop();
+      if (y > 800) {
+        $('.arrow-button').fadeIn(500);
+      } else {
+        $('.arrow-button').fadeOut(200);
+      }
+    });
+})
+  }
 });
