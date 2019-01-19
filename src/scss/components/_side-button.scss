@@ -1,0 +1,28 @@
+.arrow-button {
+    background-color: rgba($color-primary, 0.8); /* button color */
+    color: white; /* text/arrow color */ 
+    font-size: 40px;
+    // display: none;
+    z-index: 999;
+    /* float in bottom right corner */
+    /* 20 pixels from edge */
+    position: fixed;
+    right: 20px;
+    bottom: 50%;
+    /* size of button is 50 pixels*/
+    width: 60px;
+    height: 60px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+    /* round button */
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.arrow{
+   color: white; 
+}
