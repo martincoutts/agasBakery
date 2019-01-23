@@ -1,27 +1,16 @@
 {
-  "name": "agasbakery",
+  "name": "src",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "src/js/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src -d distJs",
-    "start": "babel-watch src/js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/martincavaliers/agasBakery.git"
+    "build": "babel src -d js"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/martincavaliers/agasBakery/issues"
-  },
-  "homepage": "https://github.com/martincavaliers/agasBakery#readme",
   "devDependencies": {
-    "@babel/cli": "^7.2.3",
-    "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.2.3",
-    "babel-watch": "^2.0.8"
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
   }
 }
